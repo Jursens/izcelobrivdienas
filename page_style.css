@@ -1,0 +1,413 @@
+body {
+    position: relative;
+    background-color: #d1d1a4;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("atteli/IMG-2.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+    opacity: 0.4;
+    z-index: -1;}
+    
+
+#pirmas_lapas_foto{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5.2vw;
+}
+
+#pirmas_lapas_foto_1{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    width: 16vw;
+    height: 24vw;  
+}
+#sturi{border-radius: 50%;}
+
+.responsive {
+    width: 100%;
+    height: 100%;
+  }
+  
+#virsraksts{
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    font-size: 4.5vw;
+    margin-bottom: 1vw;
+    margin-top: 3vw;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#pirmas_lapas_teksts{
+    text-align: center;
+    font-size: 1.9vw;
+    font-family: 'Inter', sans-serif;
+}
+#titullapa_p{
+    margin: auto;
+    width: 45%;
+    padding: 1vw;
+}
+#lapa_2_virsraksts{
+    margin: auto;
+    width: 80%;
+    font-size: 1.8vw;
+    text-align: center;
+    margin-top: 10vw;
+    margin-bottom: 2vw;
+    padding: 1vw;
+    font-family: 'Libre Baskerville', serif;
+}
+#pirmas_lapas_tabula{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#lapa_2_skaitli_tabula{
+    width: 10%;
+    font-size: 5vw;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    opacity: 0.7;
+}
+#lapa_2_teksts_tabula{
+    width: 40%;
+    font-size: 1.9vw;  
+    font-family: 'Inter', sans-serif; 
+}
+
+.grid_1{
+    position: relative;
+}
+.grid
+ {
+  display: grid;
+  grid-template-columns: repeat(3,33.33%); 
+  grid-template-rows: repeat(2,27.77vw); 
+  grid-gap:0vw 0vw; 
+}
+.grid-item{
+  border:thin gray solid;
+  width: 33.3vw;
+  height: 28vw;
+}
+
+#lapa_3_teksta_bloks{ 
+    width: 65%;
+    height: 8vw;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+  }
+  #lapa_3_teksts{
+      position: relative;
+      top: -2vw;
+      width: 100%;
+      height: 8.7vw;
+      font-size: 2.2vw;
+      background-color: #d1d1a4;
+      text-align: center;
+      font-family: 'Libre Baskerville', serif;
+  }
+  .lapa_4_bloks{
+    position: relative;
+    width: 100%;
+    height: 56vw;
+}
+  .sad_part_tabula {
+    position: absolute;
+    top: 2400px;
+    left: 40% ;
+    width: 40%;
+}
+.sad_part_tabula1 {
+    position: absolute;
+    top: 7000px;
+    left: 40% ;
+    width: 40%;
+}
+.lapa_4_foto{
+    position: absolute;
+  left:20%;
+  top:55%;
+  transform:translate(-50%, -50%);
+}
+.lapa_4_teksts{
+    position: absolute;
+    left:50%;
+    top:20%;
+    transform:translate(-50%, -50%);
+    font-size: 1.45vw;
+    width: 20%;
+    font-family: 'Libre Baskerville', serif;
+  }
+  
+.sad_part_foto_1{
+    position: absolute;
+    left:42%;
+    top:40%;
+    transform:translate(-50%, -50%)  
+}
+.sad_part_foto_2{
+    position: absolute;
+    left:55%;
+    top:40%;
+    transform:translate(-50%, -50%)  
+}
+.sad_part_foto_3{
+    position: absolute;
+    left:68%;
+    top:40%;
+    transform:translate(-50%, -50%)  
+}
+.sad_part_foto_4{
+    position: absolute;
+    left:84%;
+    top:33%;
+    transform:translate(-50%, -50%)  
+}
+.sad_part_foto_5{
+    position: absolute;
+    left:84%;
+    top:48%;
+    transform:translate(-50%, -50%)  
+}
+.sad_part_foto_6{
+    position: absolute;
+    left:45%;
+    top:62%;
+    transform:translate(-50%, -50%)  
+}
+.sad_part_foto_7{
+    position: absolute;
+    left:60%;
+    top:58%;
+    transform:translate(-50%, -50%)  
+}
+.sad_part_foto_8{
+    position: absolute;
+    left:60%;
+    top:72%;
+    transform:translate(-50%, -50%)  
+}
+.sad_part_foto_9{
+    position: absolute;
+    left:75%;
+    top:66%;
+    transform:translate(-50%, -50%)  
+}
+.sad_part_foto_10{
+    position: absolute;
+    left:88%;
+    top:66%;
+    transform:translate(-50%, -50%)  
+}
+.sad_part_foto_11{
+    position: absolute;
+    left:52%;
+    top:88%;
+    transform:translate(-50%, -50%)  
+}
+.sad_part_foto_12{
+    position: absolute;
+    left:68%;
+    top:88%;
+    transform:translate(-50%, -50%)  
+}
+.sad_part_foto_13{
+    position: absolute;
+    left:84%;
+    top:88%;
+    transform:translate(-50%, -50%)  
+}
+
+.foto_parvietosana{
+    width: 27vw;
+    height: 45vw; 
+    border-radius: 50%; 
+}
+
+#foto_izm_sad_part_1{
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50%;
+}
+#foto_izm_sad_part_2{
+    height: 6vw;
+    width: 14vw;
+    border-radius: 50%;
+}
+#foto_izm_sad_part_3{
+    height: 10vw;
+    width: 14vw;
+    border-radius: 50%;
+}
+
+#virsraksts_lapa_5{
+    position: relative;
+    text-align: center;
+    top: 2vw;
+    font-size: 3vw;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#piektas_lapas_foto{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-bottom: 3vw;
+}
+
+#teksts_tabulas{
+    position: relative;
+    left: 10%;
+    width: 90%;
+}
+
+#foto_izm_iesk_rez_1{
+    width: 14vw;
+    height: 24vw;
+    border-radius: 50%;
+}
+#sestas_lapas_foto{
+    position: relative;
+    left: 4vw;
+    width: 80%;   
+}
+
+#foto_izm_iesk_rez_2{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+}
+.lapa_5_foto{
+    position: absolute;
+  left:20%;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+.lapa_5_virsraksts{
+    position: absolute;
+    left:65%;
+    top:15%;
+    transform:translate(-50%, -50%);
+    width: 50%;
+  }
+  .lapa_5_teksts{
+    position: absolute;
+    left:60%;
+    top:60%;
+    transform:translate(-50%, -50%);
+  }
+  .lapa_5_virsraksts_h1{
+    font-size: 3.5vw;
+    font-family: 'Libre Baskerville', serif;
+  }
+  .lapa_5_teksts_li{
+    font-size: 2.2vw;
+    padding-bottom: 2vw;
+    width: 40vw;
+    font-family: 'Inter', sans-serif;
+  }
+#lapa_3_virsraksts{
+    margin: auto;
+    width: 80%;
+    font-size: 1.8vw;
+    text-align: center;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    padding: 1vw;
+    font-family: 'Libre Baskerville', serif;
+}
+.nobeiguma_lapa_virsraksts{
+    position: absolute;
+    left:50%;
+    top:35%;
+    transform:translate(-50%, -50%);
+    width: 100%;
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+.nobeiguma_lapa_tabula{
+    position: absolute;
+    left:50%;
+    top:60%;
+    transform:translate(-50%, -50%);
+}
+#nobeiguma_lapa_teksts{
+    font-size: 3vw;
+    font-family: 'Inter', sans-serif;
+
+}
+#nobeiguma_lapa_foto{
+    height: 5vw;
+    width: 5vw;
+}
+.lapas_bloks{
+    position: relative;
+    width: 100%;
+    height: 56vw;
+    border: 3px solid none;
+   
+}
+#logo{font-size:4vw;}
+
+.sticky {
+	background-color: white;
+    background-image: url("atteli/Video_1.mp4");
+    background-position-y: 40%;
+    background-repeat: repeat-x;
+
+    position: -webkit-sticky;
+	position: sticky;
+    top: 0;
+    z-index: 9999;
+
+}
+#stripe_links{
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6vw;
+}
+
+.button {background-color: #d1d1a4;
+    border-radius: 4vw;
+    border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.button:hover {opacity: 1}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw;
+}
+  
+
+
+
+
