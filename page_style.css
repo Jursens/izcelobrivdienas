@@ -271,6 +271,7 @@ body::before {
   padding-left: 1vw;
   padding-right: 1vw;
   padding-bottom: 3vw;
+	z-index: 1;
 }
 
 #teksts_tabulas{
